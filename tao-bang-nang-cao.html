@@ -2,39 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>tạo bảng nâng cao</title>
-    <link rel="stylesheet" href="tao-bang-nang-cao.css"/>
+    <title>Title</title>
+    <link rel="stylesheet"  href="simform.css">
 </head>
 <body>
-<h2> Thời khóa biểu</h2>
-<table>
-    <tr>
-  <th rowspan="2">Thứ</th>
-    <th colspan="2">Hoạt Động</th>
+<form method="get"action="simpleform.html"class = "wufoo">
+    <h1>Oder Form</h1>
 
-    </tr>
-    <tr>
-    <th>Sáng</th>
-    <th>Chiều</th>
-    </tr>
-    <tr>
-        <td>Thứ 2</td>
-        <td>Thể Dục</td>
-        <td>HD trò chơi mới</td>
-    </tr>
-    <tr>
-        <td>Thứ 3</td>
-        <td>Nhận biết tập nói</td>
-        <td>Rèn nề nếp,kỹ năng sống</td>
-    </tr><tr>
-    <td>Thứ 4</td>
-    <td>Âm Nhạc</td>
-    <td>Vui chơi</td>
-</tr><tr>
-    <td>Thứ 5</td>
-    <td>Văn Học</td>
-    <td>Nhận Biết các giá trị sống</td>
-</tr>
-</table>
+    <style>
+        h2{color: red}
+        h1{color:blue}
+    </style>
+
+    <p><h2>What would you like to buy?</h2></p>
+    <p>What would you like to buy?</p>
+    <select>
+        <option value = "  ">A</option>
+        <option>B (+  0.5$)</option>
+        <option>C (+  0.5$)</option>
+    </select>
+    <p><h2>How many would you like to order</h2></p>
+    <input type="radio" name="rd"/>1 - $10 <br/>
+    <input type="radio" name="rd"/>2 - $20 <br/>
+    <input type="radio" name="rd"/>3 - $30 <br/>
+    <p>Name <span style="color:red">*</span> </p>
+    <input type="text" name="firstname"placeholder="fistName"size="15">
+    <input type="text" name="LastName" placeholder="LastName"size="15">
+    <p>Email</p>
+    <input type="text"name="Email"size="40">
+    <p>Phone Number</p>
+    <input type="text"name="phone1"size="7"> -
+    <input type="text"name="phone1"size="7"> -
+    <input type="text"name="phone1"size="7"> <br><br>
+    <input type="submit"value="Submit">
+</form>
 </body>
 </html>
